@@ -1,15 +1,10 @@
-
-
 body {
-    width: 100%;
-    /* min-height: 90vh; */
     line-height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3%;
 }
-
 
 .Mobile {
     width:375px ;
@@ -156,26 +151,3 @@ body {
 
 
 
-
-Bright orange: 
-Dark cyan: 
-Very dark cyan: 
-
-### Neutral
-
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
-
-### Font
-
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
-
-- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
-- Weights: 700
