@@ -1,0 +1,181 @@
+
+
+body {
+    width: 100%;
+    /* min-height: 90vh; */
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+
+.Mobile {
+    width:375px ;
+} 
+
+.group-card {
+    width: 930px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+@media (max-width: 375px) {
+    .group-card {
+        width: 310px;
+        margin: auto;
+        flex-direction: column;
+    }
+}
+
+.group-card .card-sedans ,
+.group-card .card-suv ,
+.group-card .card-lux {
+    width: 310px;
+    height: 470px;
+    padding: 25px 18px;
+}
+
+@media (max-width: 375px) {
+    .group-card .card-sedans ,
+    .group-card .card-suv ,
+    .group-card .card-lux {
+        height: 430px;
+        padding: 7px 13px;
+        width: 310px;
+    }
+}
+
+.card-sedans {
+    background-image: linear-gradient(to bottom, hsl(31, 77%, 52% ) , hsl(53, 100%, 55%));
+    backdrop-filter: blur(14px);
+}
+
+.card-suv {
+    background-image: linear-gradient(to bottom, hsl(184, 100%, 22% , 0.6) , hsl(160, 100%, 50% , 0.6));
+    backdrop-filter: blur(11px);
+}
+
+.card-lux {
+    background-image: linear-gradient(to bottom, hsl(179, 100%, 13% , 0.6) , hsl(162, 81%, 42% , 0.6));
+    backdrop-filter: blur(11px);
+}
+
+
+
+
+.card-sedans img ,
+.card-suv img ,
+.card-lux img {
+    margin-bottom: 37px; 
+    padding: 0 23px;
+    padding-top: 30px;   
+}
+
+@media (max-width: 375px) {
+    .card-sedans img ,
+    .card-suv img ,
+    .card-lux img {
+        padding: 0 33px;
+        margin-top: 13%;
+    }
+}
+
+
+
+.card-sedans .heading-sedans ,
+.card-suv .heading-suv ,
+.card-lux .heading-lux {
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    font-size: 38px;
+    padding: 0 23px;
+    margin-bottom: 37px;
+}
+
+@media (max-width: 375px ) {
+    .card-sedans .heading-sedans ,
+    .card-suv .heading-suv ,
+    .card-lux .heading-lux {
+        margin-bottom: 15px;
+        padding: 0 33px;
+    }
+}
+
+.card-sedans p ,
+.card-suv p ,
+.card-lux p {
+    color: #ffffff9e;
+    line-height: 23px;
+    font-size: 16px;
+    margin-bottom: 35%;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0 21px;
+}
+
+@media (max-width: 375px ) {
+    .card-sedans p ,
+    .card-suv p ,
+    .card-lux p {
+        font-size: 13px;
+        margin-bottom: 12%;
+        padding: 0 33px;
+    }
+}
+
+.card-sedans .more ,
+.card-suv .more ,
+.card-lux .more  {
+    width: 150px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 0 23px;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.card-sedans .more {
+    color: #FFE61B;
+}
+
+.card-suv .more {
+    color: #00FFAB;
+}
+
+.card-lux .more {
+    color: #14C38E;
+}
+
+
+
+
+
+Bright orange: 
+Dark cyan: 
+Very dark cyan: 
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
